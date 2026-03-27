@@ -1,0 +1,117 @@
+.title {
+    color: #66de66;
+    font-family: a-serif;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 0 6px 15px rgba(66, 225, 255, 0.33);
+}
+
+#id001{ padding-top: 10px;}
+.box1 {
+           /* display: flex; /* Enable flexbox */
+            justify-content: left; /* Align the content horizontally to the center */
+            align-items: left; /* Align the content vertically to the center */
+            text-align: left; /* Center text inside the box */
+            width: 350px; /* Increased width of the box */
+            height: 130px; /* Increased height of the box */
+            background-color: ghostwhite; /* Light grey background color */
+            border: 2px solid ; /* Changed border color to blue */
+            padding: 2px; /* Padding inside the box */
+            box-shadow: 0 6px 15px rgb(121, 232, 194); /* Subtle shadow effect */
+            border-radius: 10px; /* Rounded corners */
+            flex-direction: column; /* Stack items vertically */
+            margin: auto; /* Ensure the box is centered on the page */
+            
+        }
+
+.box2 {
+           /* display: flex; /* Enable flexbox */
+            justify-content: left; /* Align the content horizontally to the center */
+            align-items: left; /* Align the content vertically to the center */
+            text-align: left; /* Center text inside the box */
+            width: 350px; /* Increased width of the box */
+            height: 160px; /* Increased height of the box */
+            background-color: ghostwhite; /* Light grey background color */
+            border: 2px solid ; /* Changed border color to blue */
+            padding: 2px; /* Padding inside the box */
+            box-shadow: 0 6px 15px rgba(0, 77, 0.6, 0.50); /* Subtle shadow effect */
+            border-radius: 10px; /* Rounded corners */
+            flex-direction: column; /* Stack items vertically */
+            margin: auto; /* Ensure the box is centered on the page */
+            
+        }
+.box3 {
+           /* display: flex; /* Enable flexbox */
+            justify-content: left; /* Align the content horizontally to the center */
+            align-items: left; /* Align the content vertically to the center */
+            text-align: left; /* Center text inside the box */
+            width: 350px; /* Increased width of the box */
+            height: 180px; /* Increased height of the box */
+            background-color: ghostwhite; /* Light grey background color */
+            border: 2px solid ; /* Changed border color to blue */
+            padding: 2px; /* Padding inside the box */
+            box-shadow: 0 6px 15px rgb(121, 232, 194); /* Subtle shadow effect */
+            border-radius: 10px; /* Rounded corners */
+            flex-direction: column; /* Stack items vertically */
+            margin: auto; /* Ensure the box is centered on the page */
+            
+        }
+
+ .radio-but1
+{
+    margin-left: auto;
+    padding-top: 50px; 
+}
+.button1{
+    color: aqua;
+}
+ .price {
+            margin-left: auto; /* Push the price to the right */
+            padding-left: 27px; /* Add some space between text and price */
+        }
+ .price1 {
+            margin-left: auto; /* Push the price to the right */
+            color: rgb(23, 191, 76);
+     text-shadow: 0 7px 14px #4edf2c;
+            padding-left: 134px; /* Add some space between text and price */
+        }
+.sameline{
+            margin-left: auto; /* Push the price to the right */
+            padding-left: 150px; /* Add some space between text and price */
+    text-shadow: 0 6px 15px rgba(66, 225, 255, 0.33);
+}
+.size{
+    padding-left: 70px;
+}
+.sizesel{
+     padding-left: 63px;
+}
+.colour{
+    padding-left: 140px;
+}
+.Coloursel{
+     padding-left: 128px;   
+}
+#free2day{
+    text-align: center;
+    color: rgb(4, 227, 48);
+}
+#addtocart{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:  x-large
+}
+  /* Style the button */
+        button {
+             justify-content: center; /* Align the content horizontally to the center */
+            align-items: center; /* Align the content vertically to the center */
+            text-align: center;
+            font-size: 20px;           /* Large text size */
+            padding: 20px 110px;        /* Padding for bigger button */
+            background-color: #4CAF50; /* Green background */
+            color: white;              /* White text color */
+            border: none;              /* No border */
+            border-radius: 8px;        /* Rounded corners */
+            cursor: pointer;          /* Pointer cursor on hover */
+            transition: background-color 0.3s; /* Smooth color transition */
+        }
