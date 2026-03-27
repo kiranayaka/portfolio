@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kiran | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h2 class="logo">Kiran R</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero -->
+        <div class="hero">
+            <h1>Hi, I'm Kiran 👋</h1>
+            <h3>Software Developer</h3>
+            <p>C++ | MFC | Windows System applications </p>
+
+            <div class="buttons">
+                <a href="resume.pdf" target="_blank">Download Resume</a>
+                <a href="#contact" class="outline">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Software Developer with 2 years of experience in building Windows-based
+            applications using C++ and MFC. I have worked on defense communication systems
+            and legacy system migrations. Currently, I am expanding my skills into AWS and DevOps.
+        </p>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="card">
+            <h3>Software Developer</h3>
+            <p>Worked on real-time embedded communication systems using MIL-STD-1553 protocol.</p>
+        </div>
+
+        <div class="card">
+            <h3>System Migration Engineer</h3>
+            <p>Converted LabWindows CVI applications from Windows 7 to Windows 11 environment.</p>
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>Defense Communication System</h3>
+            <p>Developed communication module using 1553 protocol in MFC with real-time data handling.</p>
+        </div>
+
+        <div class="card">
+            <h3>Legacy Application Migration</h3>
+            <p>Upgraded legacy CVI-based system to modern Windows 11 compatible application.</p>
+        </div>
+
+        <div class="card">
+            <h3>AWS Deployment Project</h3>
+            <p>Deployed applications using EC2, S3 and implemented basic CI/CD pipeline.</p>
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <p id="msg"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
