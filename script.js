@@ -1,6 +1,4 @@
-let numButtonClicks = 0;
-function buttonClicked() {
-    numButtonClicks = numButtonClicks + 1;
-    document.getElementById("mainDiv").textContent =
-        "Button Clicked times: " + numButtonClicks;
-}
+document.getElementById("contactForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  document.getElementById("msg").innerText = "Message sent successfully!";
+});
